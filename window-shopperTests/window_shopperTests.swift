@@ -27,8 +27,8 @@ class window_shopperTests: XCTestCase {
     
     //here we create func we want to so is run some tests to make sure that our code is actually working correctly. if your func not available go to this model file and active testing.
     func testGetHours() {
-        XCTAssert(wage.getHours(forWage: 25, andPrice: 100) == 4)
-        XCTAssert(wage.getHours(forWage: 15.50, andPrice: 250.53) == 17)
+        XCTAssert(Wage.getHours(forWage: 25, andPrice: 100) == 4)
+        XCTAssert(Wage.getHours(forWage: 15.50, andPrice: 250.53) == 17)
         //proTip: always run(and pass) your unit tests befor you: 1- create pull request 2- deploy ro decive 3- send app to beta testers 4- submit to app store!!!
     }
     
