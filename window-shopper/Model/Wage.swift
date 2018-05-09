@@ -8,7 +8,7 @@
 
 import Foundation
 
-class wage{
+class Wage{
     //forWage is parameter name but wage is variable name.
     //forwage this is more for autocomplete when you're typing in things you can see a readable description.
     class func getHours(forWage wage: Double, andPrice price: Double) -> Int {
